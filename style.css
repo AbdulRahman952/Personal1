@@ -757,3 +757,173 @@ a.fa.fa-angle-down:hover{
     -o-transition: 500ms;
     transition: 500ms;
 }
+
+
+.skills:not(:last-child){
+margin-bottom: 30px;
+}
+.details1{
+width: 100%;
+display: flex;  
+justify-content: space-between;
+margin-bottom: 10px;
+}
+.bar{
+position: relative;
+
+border: 2px solid #e00d0d;
+
+border-radius: 20px;
+
+}
+.bar div{
+position: relative;
+width: 0;
+height: 9px;
+border-radius: 5px;
+background-color: #e00d0d;
+
+
+}
+#html-bar{
+animation: html-fill 2s forwards;
+}
+@keyframes html-fill{
+100%{
+  width: 100%;
+}
+}
+#css-bar{
+animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+100%{
+  width: 75%;
+}
+}
+#js-bar{
+animation: js-fill 2s forwards;
+}
+@keyframes js-fill {
+100%{
+  width: 90%;
+}
+}
+#jQuery-bar{
+animation: jQuery-fill 2s forwards;
+}
+@keyframes jQuery-fill{
+100%{
+  width: 100%;
+}
+} 
+#a-bar{
+    animation: a-fill 2s forwards;
+    }
+    @keyframes a-fill {
+    100%{
+      width: 90%;
+    }
+    }
+    #b-bar{
+        animation: b-fill 2s forwards;
+        }
+        @keyframes b-fill {
+        100%{
+          width: 100%;
+        }
+        }
+        #c-bar{
+            animation: c-fill 2s forwards;
+            }
+            @keyframes c-fill {
+            100%{
+              width: 100%;
+            }
+            }
+            #d-bar{
+                animation: d-fill 2s forwards;
+                }
+                @keyframes d-fill {
+                100%{
+                  width: 100%;
+                }
+                }
+                #e-bar{
+                    animation: e-fill 2s forwards;
+                    }
+                    @keyframes e-fill {
+                    100%{
+                      width: 70%;
+                    }
+                    }
+
+
+
+
+                    
+.skill {
+    width: 160px;
+    height: 160px;
+    /*    background-color: cornflowerblue;*/
+    position: relative;
+  }
+  
+  .outer {
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+    /*  border: 2px solid orangered;*/  
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15), -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  }
+  
+  .inner {
+    height: 120px;
+    width: 120px;
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*  border: 2px solid orangered*/
+    box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2), 
+                   inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+         -0.5px -0.5px 0px rgba(255, 255, 255, 1), 
+                  0.5px 0.5px 0px rgba(0, 0, 0, 0.15),
+                  0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+  }
+  
+  #number {
+    font-weight: 600;
+    color: #555;
+  }
+  #number2 {
+    font-weight: 600;
+    color: #555;
+  }
+  
+  
+  circle {
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 450;
+    stroke-dashoffset: 450;
+    animation: anim 2s linear forwards;
+  }
+  
+  @keyframes anim {
+    100% {
+        stroke-dashoffset: 1;
+    }
+    
+  }
+  
+
+
+  /*Put it on the top of our circle*/
+  svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
